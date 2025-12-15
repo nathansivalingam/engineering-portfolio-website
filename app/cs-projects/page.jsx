@@ -12,7 +12,7 @@ const projects = [
   {
     id: 2,
     title: "Engineering Portfolio Website",
-    description: "Created an engineering portfolio website to showcase projects, currently used to highlight ongoing and completed engineering work.",
+    description: "Created this engineering portfolio website to showcase projects, currently used to highlight ongoing and completed engineering work.",
     imageUrl: "/assets/engineering_portfolio_cover_photo.png",
     githubUrl: "https://github.com/nathansivalingam/engineering-portfolio-website",
   },
