@@ -31,7 +31,7 @@ const projects = [
   },
   {
     id: 5,
-    title: "Space Systems Architecture Project",
+    title: "Gyre Tracking Mission",
     description: "Designed a satellite mission for tracking garbage gyres using STK and MATLAB with orbit analysis and mission planning.",
     imageUrl: "/assets/space_systems_cover_photo.jpg",
     githubUrl: "https://github.com/nathansivalingam/space-systems-architecture-matlab",
