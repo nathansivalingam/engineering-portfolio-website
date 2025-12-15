@@ -24,7 +24,7 @@ const Home = () => {
 
             <p className="max-w-full xl:max-w-[500px] mb-6
                           text-base sm:text-lg text-black/80">
-              I am in my final year of university. I am studying Mechanical Engineering and Computer Science at UNSW. I am also working as an Academic Demonstrator and Research Assistant at UNSW. I really like simple sentences.
+              I am in my final year of university. I am studying Mechanical Engineering and Computer Science at UNSW. I am also working as an Academic Demonstrator and Research Assistant at UNSW.
             </p>
             
             {/* button and socials */}
