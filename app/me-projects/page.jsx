@@ -14,7 +14,7 @@ const projects = [
     title: "Alpha Stirling Engine",
     description: "Designed and assembled an alpha-type Stirling engine, optimising flywheel performance with CAD and CNC tools.",
     imageUrl: "/assets/stirling_engine_cover_photo.jpg",
-    liveUrl: "https://example.com/stirling-demo",
+    liveUrl: "https://youtu.be/HoenJD7wxeo",
   },
   {
     id: 3,
@@ -28,7 +28,6 @@ const projects = [
     title: "Gearbox Design Project",
     description: "Constructed 3D-printed planetary gearboxes to visually demonstrate complex mechanical movements.",
     imageUrl: "/assets/planetary_gearbox_cover_photo.jpg",
-    liveUrl: "https://example.com/gearbox-demo",
   },
   {
     id: 5,
@@ -42,7 +41,6 @@ const projects = [
     title: "Gearbox Prototyping Project",
     description: "Engineered a gearbox and bridge system to safely transport the 'Hammer of Destiny' across a chasm.",
     imageUrl: "/assets/mech_design_one_cover_photo.jpg",
-    liveUrl: "https://example.com/mech-design-demo",
   },
 ];
 
