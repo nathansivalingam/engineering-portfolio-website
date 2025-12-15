@@ -85,7 +85,7 @@ const Contact = () => {
             >
               <h3 className="text-3xl sm:text-4xl font-bold mb-2">Let's work together</h3>
               <p className="text-black/80 mb-6">
-                Feel free to drop me a message anytime. Except you, Bezos. I’ve already said no.
+                Feel free to drop me a message anytime! Except you, Bezos. I’ve already said no.
               </p>
 
               {/* Inputs */}
