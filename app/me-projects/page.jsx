@@ -8,6 +8,7 @@ const projects = [
     description: "Investigated vortex generator height effects to reduce photovoltaic module temperatures using CFD and wind tunnel validation.",
     imageUrl: "/assets/undergraduate_thesis_project_cover_photo.jpg",
     githubUrl: "https://github.com/nathansivalingam/mechanical-engineering-thesis-c/tree/main",
+    liveUrl: "https://www.canva.com/design/DAG7vLi650U/xCR3eyAYF3ciHyJD9mMMog/view?utm_content=DAG7vLi650U&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3f92f36b45"
   },
   {
     id: 2,
@@ -28,6 +29,7 @@ const projects = [
     title: "Gearbox Design Project",
     description: "Constructed 3D-printed planetary gearboxes to visually demonstrate complex mechanical movements.",
     imageUrl: "/assets/planetary_gearbox_cover_photo.jpg",
+    liveUrl: "https://www.canva.com/design/DAG7vVGISRE/1pJE6lAynne-cdfLUeHJ1w/view?utm_content=DAG7vVGISRE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h40807bec48"
   },
   {
     id: 5,
@@ -41,6 +43,7 @@ const projects = [
     title: "Gearbox Prototyping Project",
     description: "Engineered a gearbox and bridge system to safely transport the 'Hammer of Destiny' across a chasm.",
     imageUrl: "/assets/mech_design_one_cover_photo.jpg",
+    liveUrl: "https://youtu.be/y1v0ZvogBSQ"
   },
 ];
 

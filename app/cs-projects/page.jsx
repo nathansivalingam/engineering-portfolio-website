@@ -8,6 +8,7 @@ const projects = [
     description: "Developed a smart vehicle parking management system optimising allocation and reducing emissions using shortest-path algorithms and real-time tracking.",
     imageUrl: "/assets/park_pilot_cover_photo.jpg",
     githubUrl: "https://github.com/unsw-cse-comp99-3900/capstone-project-25t3-3900-f11a-date",
+    liveUrl: "https://www.canva.com/design/DAG47rtPX2Y/KZO_t03h0zF30UK6Dr7bSQ/view?utm_content=DAG47rtPX2Y&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4698e317a6"
   },
   {
     id: 2,
