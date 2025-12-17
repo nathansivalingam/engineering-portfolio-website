@@ -2,8 +2,6 @@
 
 A modern, responsive portfolio website built with Next.js showcasing mechanical engineering and computer science projects for Nathan Sivalingam, a final-year student at UNSW.
 
-![Portfolio Preview](https://engineering-portfolio-website.vercel.app/)
-
 ## 🚀 Live Demo
 
 Visit the live site: [engineering-portfolio-website.vercel.app](https://engineering-portfolio-website.vercel.app/)
