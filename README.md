@@ -6,19 +6,6 @@ A modern, responsive portfolio website built with Next.js showcasing mechanical 
 
 Visit the live site: [engineering-portfolio-website.vercel.app](https://engineering-portfolio-website.vercel.app/)
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Key Pages](#key-pages)
-- [Customization](#customization)
-- [Deployment](#deployment)
-- [Learning Resources](#learning-resources)
-- [License](#license)
-
 ## 🎯 Overview
 
 This portfolio website serves as a professional showcase for engineering projects, skills, and experience. It features a clean, modern design with smooth navigation and responsive layouts optimized for all devices.
