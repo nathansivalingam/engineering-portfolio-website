@@ -115,7 +115,7 @@ Portfolio of software development and CS projects
 ### Contact (`/contact`)
 Contact form and professional links
 
-## Customization
+## customisation
 
 ### Update Personal Information
 
@@ -127,7 +127,7 @@ Contact form and professional links
 
 - Global styles: `app/globals.css`
 - Component-specific styles: Use CSS Modules or Tailwind classes
-- Font customization: Modify in `app/layout.js`
+- Font customisation: Modify in `app/layout.js`
 
 ### Adding Projects
 
