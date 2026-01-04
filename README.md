@@ -1,6 +1,6 @@
 # Engineering Portfolio Website
 
-A modern, responsive portfolio website built with Next.js showcasing mechanical engineering and computer science projects.
+A responsive portfolio website built with Next.js showcasing mechanical engineering and computer science projects.
 
 ## Live Demo
 
