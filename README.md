@@ -8,26 +8,26 @@ Visit the live site: [engineering-portfolio-website.vercel.app](https://engineer
 
 ## Overview
 
-This portfolio website serves as a professional showcase for engineering projects, skills, and experience. It features a clean, modern design with smooth navigation and responsive layouts optimized for all devices.
+This portfolio website serves as a professional showcase for engineering projects, skills, and experience. It features a clean, modern design with smooth navigation and responsive layouts optimised for all devices.
 
 **Purpose:** To present academic and professional work in mechanical engineering and computer science to potential employers, collaborators, and the academic community.
 
 ## Features
 
-- **Responsive Design** - Fully optimized for desktop, tablet, and mobile devices
+- **Responsive Design** - Fully optimised for desktop, tablet, and mobile devices
 - **Fast Performance** - Built with Next.js for optimal loading speeds and SEO
 - **Project Showcases** - Dedicated sections for mechanical engineering and computer science projects
 - **CV Download** - Direct access to downloadable resume/CV
 - **Contact Form** - Easy way for visitors to get in touch
 - **Modern UI** - Clean, professional interface with smooth animations
-- **SEO Optimized** - Meta tags and structured data for better search visibility
+- **SEO Optimised** - Meta tags and structured data for better search visibility
 - **Type-Safe** - Built with modern JavaScript/TypeScript practices
 
 ## Tech Stack
 
 - **Framework:** [Next.js 14+](https://nextjs.org/) - React framework with App Router
 - **Styling:** CSS Modules / Tailwind CSS (based on your implementation)
-- **Font Optimization:** [next/font](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) with Geist font family
+- **Font Optimisation:** [next/font](https://nextjs.org/docs/app/building-your-application/optimising/fonts) with Geist font family
 - **Deployment:** [Vercel](https://vercel.com)
 - **Package Manager:** npm / yarn / pnpm / bun
 
@@ -158,8 +158,8 @@ For more details, see the [Next.js deployment documentation](https://nextjs.org/
 
 This project was inspired by and built using knowledge from:
 
-- [Full Stack Next.js Portfolio Tutorial](https://www.youtube.com/watch?v=dImgZ_AH7uA&t=10835s)
-- [Next.js Project Build Guide](https://www.youtube.com/watch?v=TCpwcsz97wo&t=5503s)
+- [Full Stack Next.js Portfolio Tutorial](https://www.youtube.com/watch?v=dImgs_AH7uA&t=10835s)
+- [Next.js Project Build Guide](https://www.youtube.com/watch?v=TCpwcss97wo&t=5503s)
 - [Portfolio Development Tutorial](https://www.youtube.com/watch?v=BgVjild0C9A&t=165s)
 
 Additional resources:
