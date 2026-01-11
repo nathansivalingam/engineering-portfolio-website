@@ -25,7 +25,7 @@ const Photo = () => {
                     <Image 
                         src="/assets/profile_photo.jpg" 
                         priority 
-                        quality={100} 
+                        quality={75} 
                         fill 
                         alt="Nathan Sivalingam" 
                         className="object-cover rounded-full transition-all duration-500 ease-in-out"
