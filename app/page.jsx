@@ -24,7 +24,7 @@ const Home = () => {
 
             <p className="max-w-full xl:max-w-[500px] mb-6
                           text-base sm:text-lg text-black/80">
-              I am in my final year of university. I am studying Mechanical Engineering and Computer Science at UNSW. I am also working as an Academic Demonstrator and Research Assistant at UNSW.
+              Hi, I’m Nathan, a final-year student at UNSW pursuing a Bachelor of Mechanical Engineering and a Bachelor of Computer Science. Alongside my studies, I work as a Casual Academic at UNSW.
             </p>
             
             {/* button and socials */}
