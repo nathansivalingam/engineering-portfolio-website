@@ -12,28 +12,27 @@ const projects = [
   },
   {
     id: 2,
-    title: "Engineering Portfolio Website",
-    description: "Created this engineering portfolio website to showcase projects, currently used to highlight completed engineering work.",
-    imageUrl: "/assets/engineering_portfolio_cover_photo.png",
-    githubUrl: "https://github.com/nathansivalingam/engineering-portfolio-website",
-  },
-  {
-    id: 3,
-    title: "Personalised Website",
-    description: "Built an interactive personal website with mini-games and an accessible, visually engaging user interface, currently live for public online use.",
-    imageUrl: "/assets/personal_website_cover_photo.png",
-    githubUrl: "https://github.com/nathansivalingam/personal-website",
-    liveUrl: "https://nathan-personal-website.vercel.app/",
-  },
-  {
-    id: 4,
     title: "AI Cover Letter Builder",
     description: "Developed a full-stack web application that generates tailored cover letters from uploaded resumes and job descriptions.",
     imageUrl: "/assets/cover_letter_builder_cover.jpg",
     githubUrl: "https://github.com/nathansivalingam/cover-letter-builder",
     liveUrl: "https://cover-letter-builder-2pc6.vercel.app/",
   },
-
+  {
+    id: 3,
+    title: "Engineering Portfolio Website",
+    description: "Created this engineering portfolio website to showcase projects, currently used to highlight completed engineering work.",
+    imageUrl: "/assets/engineering_portfolio_cover_photo.png",
+    githubUrl: "https://github.com/nathansivalingam/engineering-portfolio-website",
+  },
+  {
+    id: 4,
+    title: "Personalised Website (v1)",
+    description: "Built an interactive personal website with mini-games and an accessible, visually engaging user interface, currently live for public online use.",
+    imageUrl: "/assets/personal_website_cover_photo.png",
+    githubUrl: "https://github.com/nathansivalingam/personal-website",
+    liveUrl: "https://nathan-personal-website.vercel.app/",
+  }
 ];
 
 const CSProj = () => {
