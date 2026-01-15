@@ -28,7 +28,7 @@ const projects = [
   {
     id: 4,
     title: "Personal Website (v1)",
-    description: "Built an interactive personal website with mini-games and an accessible, visually engaging user interface, currently live for public online use.",
+    description: "Built an interactive personal website with mini-games and an accessible, visually engaging user interface, currently live.",
     imageUrl: "/assets/personal_website_cover_photo.png",
     githubUrl: "https://github.com/nathansivalingam/personal-website",
     liveUrl: "https://nathan-personal-website.vercel.app/",
