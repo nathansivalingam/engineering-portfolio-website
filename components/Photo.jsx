@@ -23,7 +23,7 @@ const Photo = () => {
                     className="w-[298px] h-[298px] xl:w-[398px] xl:h-[398px] relative transition-all duration-500 ease-in-out"
                 >
                     <Image 
-                        src="/assets/profile_photo.jpg" 
+                        src="/assets/profile_photo.jpeg" 
                         priority 
                         quality={75} 
                         fill 
