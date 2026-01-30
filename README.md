@@ -115,7 +115,7 @@ Portfolio of software development and CS projects
 ### Contact (`/contact`)
 Contact form and professional links
 
-## customisation
+## Customisation
 
 ### Update Personal Information
 
