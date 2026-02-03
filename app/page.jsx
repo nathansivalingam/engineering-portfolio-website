@@ -5,28 +5,26 @@ import Photo from "@/components/Photo";
 
 const Home = () => {
   return (
-    <section className="h-full">
+    <section className="h-full bg-white text-black dark:bg-neutral-950 dark:text-white transition-colors">
       <div className="container mx-auto h-full px-6 xl:px-60">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
-          
+
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-1">
-            <span className="text-sm xl:text-base text-black/70">
+            <span className="text-sm xl:text-base text-black/70 dark:text-white/70">
               Mechanical Engineering and Computer Science Student
             </span>
 
-            <h1 className="font-bold leading-tight mt-2 mb-6
-                           text-3xl sm:text-4xl xl:text-5xl">
+            <h1 className="font-bold leading-tight mt-2 mb-6 text-3xl sm:text-4xl xl:text-5xl">
               Hello I'm{" "}
               <br className="hidden xl:block" />
               <span>Nathan Sivalingam</span>
             </h1>
 
-            <p className="max-w-full xl:max-w-[500px] mb-6
-                          text-base sm:text-lg text-black/80">
+            <p className="max-w-full xl:max-w-[500px] mb-6 text-base sm:text-lg text-black/80 dark:text-white/80">
               Hi, I’m Nathan, a final-year student at UNSW pursuing a Bachelor of Mechanical Engineering and a Bachelor of Computer Science. Alongside my studies, I work as a Casual Academic at UNSW.
             </p>
-            
+
             {/* button and socials */}
             <div className="flex flex-col xl:flex-row items-center xl:items-start gap-4">
               <Button variant="outline" asChild>
@@ -34,29 +32,34 @@ const Home = () => {
                   href="/assets/nathan_sivalingam_cv.pdf"
                   download
                   className="uppercase flex items-center gap-2
-                            border-black/40
+                            border-black/40 dark:border-white/30
                             transition-colors duration-300
-                            hover:bg-black hover:text-white"
+                            hover:bg-black hover:text-white
+                            dark:hover:bg-white dark:hover:text-black"
                 >
                   <span>Download CV</span>
                   <FiDownload className="text-xl" />
                 </a>
               </Button>
-              <Social 
+
+              <Social
                 containerStyles="flex gap-4"
-                iconStyles="w-9 h-9 border border-black/40 rounded-md
-                            flex justify-center items-center text-black text-xl
+                iconStyles="w-9 h-9 border border-black/40 dark:border-white/30 rounded-md
+                            flex justify-center items-center text-black dark:text-white text-xl
                             transition-colors duration-300
-                            hover:bg-black hover:text-white"
+                            hover:bg-black hover:text-white
+                            dark:hover:bg-white dark:hover:text-black"
               />
             </div>
           </div>
-          
+
           {/* photo */}
-          <div className="w-full max-w-[280px] xl:max-w-[400px]
-                          mt-8 mb-8 xl:mt-0 xl:mb-0
-                          order-1 xl:order-2
-                          flex justify-center items-center">
+          <div
+            className="w-full max-w-[280px] xl:max-w-[400px]
+                       mt-8 mb-8 xl:mt-0 xl:mb-0
+                       order-1 xl:order-2
+                       flex justify-center items-center"
+          >
             <Photo />
           </div>
         </div>

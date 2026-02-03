@@ -1,64 +1,83 @@
-import React from 'react';
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import React from "react";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
   {
     id: 1,
     title: "Undergraduate Thesis Project",
-    description: "Investigated vortex generator height effects to reduce photovoltaic module temperatures using CFD and wind tunnel validation.",
+    description:
+      "Investigated vortex generator height effects to reduce photovoltaic module temperatures using CFD and wind tunnel validation.",
     imageUrl: "/assets/undergraduate_thesis_project_cover_photo.jpg",
-    githubUrl: "https://github.com/nathansivalingam/mechanical-engineering-thesis-c/tree/main",
-    liveUrl: "https://www.canva.com/design/DAG7vLi650U/xCR3eyAYF3ciHyJD9mMMog/view?utm_content=DAG7vLi650U&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3f92f36b45"
+    githubUrl:
+      "https://github.com/nathansivalingam/mechanical-engineering-thesis-c/tree/main",
+    liveUrl:
+      "https://www.canva.com/design/DAG7vLi650U/xCR3eyAYF3ciHyJD9mMMog/view?utm_content=DAG7vLi650U&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3f92f36b45",
   },
   {
     id: 2,
     title: "Alpha Stirling Engine",
-    description: "Designed and assembled an alpha-type Stirling engine, optimising flywheel performance with CAD and CNC tools.",
+    description:
+      "Designed and assembled an alpha-type Stirling engine, optimising flywheel performance with CAD and CNC tools.",
     imageUrl: "/assets/stirling_engine_cover_photo.jpg",
     liveUrl: "https://youtu.be/HoenJD7wxeo",
   },
   {
     id: 3,
     title: "Hand Gesture Robot",
-    description: "Created a gesture-controlled autonomous vehicle with FEA-optimised chassis for lightweight structural integrity.",
+    description:
+      "Created a gesture-controlled autonomous vehicle with FEA-optimised chassis for lightweight structural integrity.",
     imageUrl: "/assets/hand_gesture_robot_cover_photo.png",
     githubUrl: "https://github.com/nathansivalingam/hand-gesture-robot",
   },
   {
     id: 4,
     title: "Gearbox Design Project",
-    description: "Constructed 3D-printed planetary gearboxes to visually demonstrate complex mechanical movements.",
+    description:
+      "Constructed 3D-printed planetary gearboxes to visually demonstrate complex mechanical movements.",
     imageUrl: "/assets/planetary_gearbox_cover_photo.jpg",
-    liveUrl: "https://www.canva.com/design/DAG7vVGISRE/1pJE6lAynne-cdfLUeHJ1w/view?utm_content=DAG7vVGISRE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h40807bec48"
+    liveUrl:
+      "https://www.canva.com/design/DAG7vVGISRE/1pJE6lAynne-cdfLUeHJ1w/view?utm_content=DAG7vVGISRE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h40807bec48",
   },
   {
     id: 5,
     title: "Gyre Tracking Mission",
-    description: "Designed a satellite mission for tracking garbage gyres using STK and MATLAB with orbit analysis and mission planning.",
+    description:
+      "Designed a satellite mission for tracking garbage gyres using STK and MATLAB with orbit analysis and mission planning.",
     imageUrl: "/assets/space_systems_cover_photo.jpg",
-    githubUrl: "https://github.com/nathansivalingam/space-systems-architecture-matlab",
+    githubUrl:
+      "https://github.com/nathansivalingam/space-systems-architecture-matlab",
   },
   {
     id: 6,
     title: "Gearbox Prototyping Project",
-    description: "Engineered a gearbox and bridge system to safely transport the 'Hammer of Destiny' across a chasm.",
+    description:
+      "Engineered a gearbox and bridge system to safely transport the 'Hammer of Destiny' across a chasm.",
     imageUrl: "/assets/mech_design_one_cover_photo.jpg",
-    liveUrl: "https://youtu.be/y1v0ZvogBSQ"
+    liveUrl: "https://youtu.be/y1v0ZvogBSQ",
   },
 ];
 
 const MEProj = () => {
   return (
-    <div className="min-h-screen bg-white-100">
+    <div className="min-h-screen bg-gray-50 dark:bg-neutral-950 transition-colors">
       <div className="container mx-auto px-6 xl:px-60 py-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {projects.map((project) => (
             <div
               key={project.id}
-              className="bg-white rounded-lg shadow-md p-4 flex flex-col items-start text-left font-medium text-gray-800 hover:shadow-lg transition-shadow duration-300 border border-gray-400 h-full"
+              className="
+                bg-white dark:bg-white/5
+                rounded-lg shadow-md dark:shadow-none
+                p-4 flex flex-col items-start text-left font-medium
+                text-gray-800 dark:text-white/90
+                hover:shadow-lg dark:hover:bg-white/10
+                transition-colors transition-shadow duration-300
+                border border-gray-200 dark:border-white/10
+                h-full
+              "
             >
               {/* Image rectangle */}
-              <div className="w-full h-24 bg-gray-200 rounded-md mb-3 overflow-hidden">
+              <div className="w-full h-24 bg-gray-200 dark:bg-white/10 rounded-md mb-3 overflow-hidden">
                 <img
                   src={project.imageUrl}
                   alt={project.title}
@@ -67,21 +86,37 @@ const MEProj = () => {
               </div>
 
               {/* Project title */}
-              <h2 className="text-base font-semibold mb-1">{project.title}</h2>
+              <h2 className="text-base font-semibold mb-1 text-gray-900 dark:text-white">
+                {project.title}
+              </h2>
 
               {/* Project description */}
-              <p className="text-gray-600 text-sm mb-3">{project.description}</p>
+              <p className="text-gray-600 dark:text-white/70 text-sm mb-3">
+                {project.description}
+              </p>
 
-              {/* Icons: pushed to bottom */}
+              {/* Icons */}
               <div className="flex space-x-3 mt-auto">
                 {project.githubUrl && (
-                  <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                    <FaGithub className="text-gray-800 hover:text-black text-lg" />
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-800 dark:text-white/80 hover:text-black dark:hover:text-white transition-colors"
+                    aria-label={`${project.title} GitHub`}
+                  >
+                    <FaGithub className="text-lg" />
                   </a>
                 )}
                 {project.liveUrl && (
-                  <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                    <FaExternalLinkAlt className="text-gray-800 hover:text-black text-lg" />
+                  <a
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-800 dark:text-white/80 hover:text-black dark:hover:text-white transition-colors"
+                    aria-label={`${project.title} Live link`}
+                  >
+                    <FaExternalLinkAlt className="text-lg" />
                   </a>
                 )}
               </div>

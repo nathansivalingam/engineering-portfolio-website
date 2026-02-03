@@ -2,11 +2,11 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { FaUserAlt, FaCog, FaLaptopCode, FaPhoneAlt } from "react-icons/fa";
+import { FaUserAlt, FaTools, FaLaptopCode, FaPhoneAlt } from "react-icons/fa";
 
 const links = [
   { name: "about", path: "/", mobileIcon: <FaUserAlt /> },
-  { name: "mech eng projects", path: "/me-projects", mobileIcon: <FaCog /> },
+  { name: "mech eng projects", path: "/me-projects", mobileIcon: <FaTools /> },
   { name: "cS projects", path: "/cs-projects", mobileIcon: <FaLaptopCode /> },
   { name: "contact", path: "/contact", mobileIcon: <FaPhoneAlt /> },
 ];
@@ -19,16 +19,26 @@ const Nav = ({ mobile = false }) => {
       {links.map((link, index) => {
         const isActive = link.path === pathname;
 
-        // Determine color classes
-        const colorClass = isActive ? "text-black" : "text-gray-700 hover:text-gray-900";
+        // Active: use theme "primary" color
+        // Inactive: muted, becomes foreground on hover
+        const colorClass = isActive
+          ? "text-primary"
+          : "text-muted-foreground hover:text-foreground";
+
+        // Bottom border for desktop active state
+        const underlineClass = !mobile && isActive ? "border-b-2 border-primary" : "border-b-2 border-transparent";
 
         return (
           <Link
             key={index}
             href={link.path}
             aria-label={link.name}
-            className={`capitalize transition-colors duration-300 flex items-center justify-center
-                        ${!mobile && isActive ? "border-b-2 border-black" : ""} ${colorClass}`}
+            className={`
+              capitalize transition-colors duration-300
+              flex items-center justify-center
+              ${colorClass}
+              ${underlineClass}
+            `}
           >
             {mobile ? link.mobileIcon : link.name}
           </Link>
