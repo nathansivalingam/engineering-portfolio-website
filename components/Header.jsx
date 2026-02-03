@@ -7,7 +7,7 @@ import ThemeToggle from "./ThemeToggle";
 const Header = () => {
   return (
     <header className="bg-background text-foreground shadow-sm border-b border-border">
-      <div className="container mx-auto flex justify-between items-center py-4 px-6 xl:px-60">
+      <div className="mx-auto w-full max-w-[1536px] flex justify-between items-center py-4 px-6 xl:px-60">
         {/* logo */}
         <Link href="/" aria-label="Home">
           <h1 className="text-2xl font-semibold transition-colors duration-300 hover:text-muted-foreground">

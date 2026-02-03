@@ -67,7 +67,7 @@ const Contact = () => {
       animate={{ opacity: 1, transition: { duration: 0.4, ease: "easeIn" } }}
       className="py-12"
     >
-      <div className="container mx-auto px-6 xl:px-60">
+      <div className="mx-auto w-full max-w-[1536px] px-6 xl:px-60">
         <div className="flex flex-col xl:flex-row gap-12 xl:gap-24 items-start">
           {/* Form */}
           <div className="xl:w-2/3 order-2 xl:order-1">

@@ -6,7 +6,7 @@ import Photo from "@/components/Photo";
 const Home = () => {
   return (
     <section className="h-full bg-white text-black dark:bg-neutral-950 dark:text-white transition-colors">
-      <div className="container mx-auto h-full px-6 xl:px-60">
+      <div className="mx-auto w-full max-w-[1536px] h-full px-6 xl:px-60">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
 
           {/* text */}

@@ -60,7 +60,7 @@ const projects = [
 const MEProj = () => {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-neutral-950 transition-colors">
-      <div className="container mx-auto px-6 xl:px-60 py-6">
+      <div className="mx-auto w-full max-w-[1536px] px-6 xl:px-60 py-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {projects.map((project) => (
             <div
